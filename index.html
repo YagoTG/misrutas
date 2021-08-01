@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Router nativo</title>
+</head>
+
+<body>
+    <main>
+
+    </main>
+    <ul>
+        <li><a href="#list">List</a></li>
+        <li><a href="#edit">Edit</a></li>
+        <li><a href="#templateA">TemplateA</a></li>
+        <li><a href="#templateB">TemplateB</a></li>
+        <li><a href="#pru">TemplateB</a></li>
+    </ul>
+    <data-route-view></data-route-view>
+    <template id="list">
+        <h1>LISTADO</h1>
+        <ul>
+            <li style="color: aqua">A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+        </ul>
+    </template>
+    <template id="edit">
+        <h1>LISTADO</h1>
+        <ul>
+            <li><input type="text" value="A"></li>
+            <li><input type="text" value="B"></li>
+            <li><input type="text" value="C"></li>
+            <li><input type="text" value="D"></li>
+        </ul>
+    </template>
+
+    <template id="pru">
+        <h1>HOLA MUNDOD</h1>
+        <script src="prueba.js"></script>
+        
+       
+    </template>
+
+    <script src="./simpleRotuer.js"></script>
+    <script src="rutas.js"></script>
+</body>
+
+</html>
